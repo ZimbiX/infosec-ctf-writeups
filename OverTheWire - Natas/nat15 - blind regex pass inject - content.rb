@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 
-require 'unirest' # gem
+require 'rubygems'
+require 'bundler/setup'
+Bundler.require(:default)
 
 class NatasBlindSQLI
   def password_query regex

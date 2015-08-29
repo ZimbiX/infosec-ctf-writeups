@@ -1,10 +1,11 @@
 #!/usr/bin/env ruby
 
+require 'rubygems'
+require 'bundler/setup'
+Bundler.require(:default)
+
 require 'base64'
 require 'uri'
-require 'hex_string'  # gem
-require 'xor'         # gem: fast_xor
-require 'pry'
 
 class String
   def convert_cookie_to_hex spaces = true
