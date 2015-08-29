@@ -1,6 +1,6 @@
 # Natas
 
-Writeup by Brendan Weibrecht
+By Brendan Weibrecht
 
 http://natasX.natas.labs.overthewire.org/
 

@@ -1,6 +1,6 @@
 # OverThe Wire - Krypton
 
-Writeup by Brendan Weibrecht
+By Brendan Weibrecht
 
 # 1 -> 2
 

@@ -1,6 +1,6 @@
 # Leviathan
 
-Writeup by Brendan Weibrecht
+By Brendan Weibrecht
 
 ## 0
 

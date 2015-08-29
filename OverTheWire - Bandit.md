@@ -1,6 +1,6 @@
 # OverTheWire - Bandit
 
-Writeup by Brendan Weibrecht
+By Brendan Weibrecht
 
 ## 23 -> 24
 
