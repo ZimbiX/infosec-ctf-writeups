@@ -1,0 +1,62 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.6.1)
+    byebug (4.0.5)
+      columnize (= 0.9.0)
+    coderay (1.1.0)
+    columnize (0.9.0)
+    coolline (0.5.0)
+      unicode_utils (~> 1.4)
+    diff-lcs (1.2.5)
+    diffy (3.0.7)
+    grit (2.5.0)
+      diff-lcs (~> 1.1)
+      mime-types (~> 1.15)
+      posix-spawn (~> 0.3.6)
+    hex_string (1.0.1)
+    hirb (0.7.3)
+    jazz_fingers (2.0.0)
+      awesome_print (~> 1.6)
+      hirb (~> 0.7)
+      pry (~> 0.10)
+      pry-byebug (~> 3.1)
+      pry-coolline (~> 0.2)
+      pry-doc (~> 0.6)
+      pry-git (~> 0.2)
+      pry-remote (>= 0.1.7)
+    method_source (0.8.2)
+    mime-types (1.25.1)
+    posix-spawn (0.3.11)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (3.1.0)
+      byebug (~> 4.0)
+      pry (~> 0.10)
+    pry-coolline (0.2.5)
+      coolline (~> 0.5)
+    pry-doc (0.8.0)
+      pry (~> 0.9)
+      yard (~> 0.8)
+    pry-git (0.2.3)
+      diffy
+      grit
+      pry (>= 0.9.8)
+    pry-remote (0.1.8)
+      pry (~> 0.9)
+      slop (~> 3.0)
+    slop (3.6.0)
+    unicode_utils (1.4.0)
+    yard (0.8.7.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hex_string
+  jazz_fingers
+
+BUNDLED WITH
+   1.10.4
