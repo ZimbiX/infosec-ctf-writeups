@@ -360,3 +360,42 @@ So the flag is:
 The page source shows a global variable `key`. Evaluating this in the Chrome console, shows the flag:
 
 	flag_5151
+
+## 11 - forensics 30 - pickle jar
+
+Extract pickle.jar as a zip.
+
+There's a file in there called `pickle.p` with contents:
+
+	S'YOUSTOLETHEPICKLES'
+	p0
+	.
+
+I decompiled `Jar.class` using JD-IntelliJ, but there was only basic output code in there.
+
+The flag is:
+
+	YOUSTOLETHEPICKLES
+
+## 12 - binary explitation 40 - easy overflow
+
+Open the shell and run
+
+	nc vuln2014.picoctf.com 50000
+
+> Your number is 1824832. Can you make it negative by adding a positive integer?
+
+Responding `yes` shows:
+
+> I'm unable to parse your number. It might be too large (the largest java int is 2147483647), or just not a number.
+
+Well that gives us the answer. Respond `2147483647`, and it gives us the flag:
+
+> Congratulations! The sum is -2138015749. Here is the flag: That_was_easssy!
+
+Flag:
+
+	That_was_easssy
+
+## 13 - reverse engineering 60 - basic asm
+
